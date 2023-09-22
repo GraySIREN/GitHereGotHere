@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.ForegroundColor = ConsoleColor.DarkBlue;
+Console.WriteLine("Woah, fancy color huh?"); // SIREN
 Console.WriteLine("To exit the game, type exit.");
 Console.ForegroundColor = ConsoleColor.DarkRed;
 Console.WriteLine("Do you like music?");
@@ -40,12 +41,13 @@ while(!gameOver)
             break;
         case "country":
             Console.WriteLine("Just leave.");
+            Console.WriteLine("And please don't break my achy breaky heart.."); // SIREN
             break;
         case "pop":
             Console.WriteLine("You have the worst taste in music ever, congratulations.");
             break;
         case "rap":
-            Console.WriteLine("I should bust a cap in that ass rn, frfr, no cap.");
+            Console.WriteLine("I finna bust a cap in that ass rn, frfr, no cap."); // SIREN small change
             break;
         case "classical":
             Console.WriteLine("Seriously, you should go to AA meetings.");
@@ -80,6 +82,8 @@ while(!gameOver)
         case "r&b":
             Console.WriteLine("You have to rely on music to get your partner in the mood? Pathetic.");
             break;
+        case "riddim":
+            Console.WriteLine("So you love listening while abusing substances, and head banging...nice.."); // SIREN
         default: 
             Console.WriteLine("If you ever thought you were cool, abandon all hope.");
             break;
